@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PRG v.01</title>
+    <style>
+        body {background: antiquewhite; color: black; padding: 5%;}
+        canvas {position: absolute;top: 50%; border: 2px solid red; left: 50%; transform: translate(-50%, -50%)}
+        .holder {position: absolute; top: 5vh; left: 5vw; border: 1px solid red; background: antiquewhite; opacity: 0.8;}
+    </style>
+</head>
+<body>
+    <canvas id="game" width="1000" height="700"></canvas>
+    <div class="holder">
+    <label for="speeder">Set Speed: </label><input id="speeder" type="range" min="0" max="20"><br>
+
+    <div id="life">LIFE= <span id="hp">100</span></div>
+    <br>
+    <div class="info">
+        <h4>HOW TO PLAY:</h4>
+        <p>Move using the arrrow keys and jump with spacebar.</p>
+    </div></div>
+  </body>
+</html>
